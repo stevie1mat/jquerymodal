@@ -1,0 +1,17 @@
+a[m-open="one"]{
+  height:60px !important;
+  margin-left:20%;
+  margin-top: 100px;
+}
+
+a[m-open="two"]{
+  width:60px !important;
+  height:60px !important;
+  margin-left:20%;
+  margin-top: 400px;
+}
+
+a[m-open="three"]{
+  margin-left:20%;
+  margin-top: 100px;
+}

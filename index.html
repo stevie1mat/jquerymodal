@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Morphing Modal (simple jquery plugin)</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="yellow">
+  
+   <a class="btn  red m-open" m-open="one"></a>
+  
+   <a class="btn-floating btn-large  blue m-open" m-open="two"></a>
+  
+     <a class="btn  green m-open" m-open="three"></a>
+   
+   <!-- structure -->
+   <div class="m-modal" m-modal="one">
+     <div class="m-close">X</div>
+     <div class="m-body">One</div>
+   </div>
+  
+   <div class="m-modal" m-modal="two">
+     <div class="m-close">X</div>
+     <div class="m-body">Two</div>
+   </div>
+  
+   <div class="m-modal" m-modal="three">
+     <div class="m-close">X</div>
+     <div class="m-body">Three</div>
+   </div>
+</body>
+
+
+<!--
+  
+you define the styles of content and close button
+-->
+
+
+<!-- 
+inspiration
+https://codyhouse.co/gem/morphing-modal-window/
+-->
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
